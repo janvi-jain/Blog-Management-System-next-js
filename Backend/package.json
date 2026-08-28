@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Blog Management Backend",
   "main": "index.js",
-  "scripts": {
-    "start": "json-server --host 0.0.0.0 --port $PORT db.json"
+   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "next": "...",
+    "react": "...",
+    "react-dom": "..."
   }
 }
