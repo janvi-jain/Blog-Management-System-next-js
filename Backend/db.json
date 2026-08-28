@@ -1,0 +1,402 @@
+{
+  "blogs": [
+    {
+      "title": "Getting Started with React",
+      "slug": "getting-started-with-react",
+      "author": "John Doe",
+      "category": "React",
+      "description": "Learn the basics of React and build your first component.",
+      "content": "React is one of the most popular JavaScript libraries for building user interfaces. In this blog, you'll learn components, JSX, props, state, and hooks with simple examples.",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=900",
+      "publishDate": "2026-07-01",
+      "tags": [
+        "React",
+        "Frontend"
+      ],
+      "status": "Published",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Modern JavaScript ES6 Features",
+      "slug": "modern-javascript-es6",
+      "author": "Emma Watson",
+      "category": "JavaScript",
+      "description": "Understand let, const, arrow functions and more.",
+      "content": "ES6 introduced many powerful features that make JavaScript easier to write and maintain.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=900",
+      "publishDate": "2026-07-03",
+      "status": "Published",
+      "tags": [
+        "JavaScript",
+        "ES6"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Bootstrap 5 Layout Guide",
+      "slug": "bootstrap-layout-guide",
+      "author": "David Miller",
+      "category": "Bootstrap",
+      "description": "Create responsive websites using Bootstrap Grid.",
+      "content": "Bootstrap makes responsive design much easier using containers, rows and columns.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900",
+      "publishDate": "2026-07-04",
+      "status": "Draft",
+      "tags": [
+        "Bootstrap",
+        "CSS"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "CSS Flexbox Complete Guide",
+      "slug": "css-flexbox-complete-guide",
+      "author": "Sophia Lee",
+      "category": "CSS",
+      "description": "Master Flexbox with practical examples.",
+      "content": "Flexbox is the easiest way to align and distribute items inside containers.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=900",
+      "publishDate": "2026-07-05",
+      "status": "Published",
+      "tags": [
+        "CSS",
+        "Flexbox"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Node.js Beginner Tutorial",
+      "slug": "nodejs-beginner-tutorial",
+      "author": "Michael Scott",
+      "category": "Node.js",
+      "description": "Start backend development with Node.js.",
+      "content": "Node.js lets developers build scalable backend applications using JavaScript.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900",
+      "publishDate": "2026-07-06",
+      "status": "Published",
+      "tags": [
+        "Node",
+        "Backend"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Express.js Routing Explained",
+      "slug": "express-routing-explained",
+      "author": "Sarah Johnson",
+      "category": "Express",
+      "description": "Learn routing in Express.js.",
+      "content": "Express provides a simple routing mechanism for creating REST APIs.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900",
+      "publishDate": "2026-07-08",
+      "status": "Draft",
+      "tags": [
+        "Express",
+        "API"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "MongoDB CRUD Operations",
+      "slug": "mongodb-crud-operations",
+      "author": "Chris Evans",
+      "category": "MongoDB",
+      "description": "Perform CRUD operations in MongoDB.",
+      "content": "MongoDB stores data in flexible JSON-like documents making development faster.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=900",
+      "publishDate": "2026-07-10",
+      "status": "Published",
+      "tags": [
+        "MongoDB",
+        "Database"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Redux Toolkit Crash Course",
+      "slug": "redux-toolkit-crash-course",
+      "author": "Olivia Brown",
+      "category": "Redux",
+      "description": "Manage state easily with Redux Toolkit.",
+      "content": "Redux Toolkit reduces boilerplate and simplifies Redux development.",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=900",
+      "publishDate": "2026-07-12",
+      "status": "Published",
+      "tags": [
+        "Redux",
+        "React"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Git & GitHub Workflow",
+      "slug": "git-github-workflow",
+      "author": "Robert Smith",
+      "category": "Git",
+      "description": "Learn version control using Git.",
+      "content": "Git helps developers track changes and collaborate efficiently.",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900",
+      "publishDate": "2026-07-14",
+      "status": "Draft",
+      "tags": [
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "REST API Development",
+      "slug": "rest-api-development",
+      "author": "Lisa Green",
+      "category": "API",
+      "description": "Build scalable REST APIs.",
+      "content": "REST APIs enable communication between frontend and backend applications.",
+      "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=900",
+      "publishDate": "2026-07-15",
+      "status": "Published",
+      "tags": [
+        "REST",
+        "API"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Understanding React Hooks",
+      "slug": "understanding-react-hooks",
+      "author": "Alex Carter",
+      "category": "React",
+      "description": "A complete guide to React Hooks.",
+      "content": "React Hooks allow functional components to manage state and lifecycle methods without writing classes.",
+      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=900",
+      "publishDate": "2026-07-16",
+      "status": "Published",
+      "tags": [
+        "React",
+        "Hooks"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "JavaScript Array Methods",
+      "slug": "javascript-array-methods",
+      "author": "Emily Stone",
+      "category": "JavaScript",
+      "description": "Master array methods in JavaScript.",
+      "content": "Learn map, filter, reduce, find, some, every and many other useful array methods.",
+      "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=900",
+      "publishDate": "2026-07-17",
+      "status": "Draft",
+      "tags": [
+        "JavaScript",
+        "Array"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Responsive Web Design",
+      "slug": "responsive-web-design",
+      "author": "Daniel Green",
+      "category": "CSS",
+      "description": "Create responsive websites using CSS.",
+      "content": "Responsive design helps your website adapt to every screen size.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900",
+      "publishDate": "2026-07-18",
+      "status": "Published",
+      "tags": [
+        "CSS",
+        "Responsive"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Redux Toolkit Best Practices",
+      "slug": "redux-toolkit-best-practices",
+      "author": "Sophia Turner",
+      "category": "Redux",
+      "description": "Write cleaner Redux code.",
+      "content": "Redux Toolkit makes Redux easier by reducing boilerplate and simplifying async logic.",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=900",
+      "publishDate": "2026-07-19",
+      "status": "Published",
+      "tags": [
+        "Redux",
+        "Toolkit"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "REST API with Express",
+      "slug": "rest-api-with-express",
+      "author": "Kevin White",
+      "category": "Express",
+      "description": "Build REST APIs using Express.js.",
+      "content": "Express provides routing, middleware and request handling for backend applications.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900",
+      "publishDate": "2026-07-20",
+      "status": "Draft",
+      "tags": [
+        "Express",
+        "API"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "MongoDB Aggregation Basics",
+      "slug": "mongodb-aggregation-basics",
+      "author": "Rachel Adams",
+      "category": "MongoDB",
+      "description": "Learn MongoDB aggregation pipeline.",
+      "content": "Aggregation allows complex data processing directly inside MongoDB.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=900",
+      "publishDate": "2026-07-21",
+      "status": "Published",
+      "tags": [
+        "MongoDB",
+        "Database"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Git Branching Explained",
+      "slug": "git-branching-explained",
+      "author": "Chris Walker",
+      "category": "Git",
+      "description": "Everything about Git branching.",
+      "content": "Branches help developers work on multiple features independently.",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900",
+      "publishDate": "2026-07-22",
+      "status": "Published",
+      "tags": [
+        "Git",
+        "Branch"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Next.js Routing Guide",
+      "slug": "nextjs-routing-guide",
+      "author": "Olivia Wilson",
+      "category": "Next.js",
+      "description": "Routing in Next.js made easy.",
+      "content": "Next.js supports file-based routing for building fast React applications.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900",
+      "publishDate": "2026-07-23",
+      "status": "Draft",
+      "tags": [
+        "Next.js",
+        "React"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Tailwind CSS Utility Classes",
+      "slug": "tailwind-css-utility-classes",
+      "author": "Lucas Brown",
+      "category": "Tailwind CSS",
+      "description": "Speed up UI development.",
+      "content": "Tailwind provides utility-first classes for creating responsive interfaces quickly.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=900",
+      "publishDate": "2026-07-24",
+      "status": "Published",
+      "tags": [
+        "Tailwind",
+        "CSS"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "TypeScript for Beginners",
+      "slug": "typescript-for-beginners",
+      "author": "Nathan Scott",
+      "category": "TypeScript",
+      "description": "Start learning TypeScript today.",
+      "content": "TypeScript adds static typing to JavaScript, improving code quality and developer experience.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=900",
+      "publishDate": "2026-07-25",
+      "status": "Published",
+      "tags": [
+        "TypeScript",
+        "JavaScript"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "2",
+      "name": "JavaScript",
+      "description": "JavaScript Concepts"
+    },
+    {
+      "id": "3",
+      "name": "Bootstrap",
+      "description": "Bootstrap Components"
+    },
+    {
+      "id": "4",
+      "name": "CSS",
+      "description": "CSS Styling"
+    },
+    {
+      "id": "5",
+      "name": "HTML",
+      "description": "HTML Basics"
+    },
+    {
+      "id": "6",
+      "name": "Node.js",
+      "description": "Backend with Node"
+    },
+    {
+      "id": "7",
+      "name": "Express",
+      "description": "Express Framework"
+    },
+    {
+      "id": "8",
+      "name": "MongoDB",
+      "description": "NoSQL Database"
+    },
+    {
+      "id": "9",
+      "name": "Redux",
+      "description": "State Management"
+    },
+    {
+      "id": "10",
+      "name": "Git",
+      "description": "Version Control"
+    },
+    {
+      "id": "11",
+      "name": "API",
+      "description": "REST API Development"
+    },
+    {
+      "id": "12",
+      "name": "Tailwind CSS",
+      "description": "Utility First CSS"
+    },
+    {
+      "id": "13",
+      "name": "Next.js",
+      "description": "React Framework"
+    },
+    {
+      "id": "14",
+      "name": "Firebase",
+      "description": "Authentication & Database"
+    },
+    {
+      "id": "15",
+      "name": "TypeScript",
+      "description": "Typed JavaScript"
+    },
+    {
+      "name": "React",
+      "description": "React Tutorials",
+      "id": "YTJey2zS1OM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
