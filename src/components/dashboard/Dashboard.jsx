@@ -11,8 +11,17 @@ import RecentPosts from "@/components/dashboard/RecentPosts"
 
 export default function Dashboard() {
   const dispatch = useDispatch();
-  const { blogs = [] } = useSelector((state) => state.blogs || {});
-  const { categories = [] } = useSelector((state) => state.categories || {});
+  const blogs = useSelector((state) =>
+  Array.isArray(state.blogs?.blogs)
+    ? state.blogs.blogs
+    : []
+);
+
+const categories = useSelector((state) =>
+  Array.isArray(state.categories?.categories)
+    ? state.categories.categories
+    : []
+);
 
   useEffect(() => {
     dispatch(fetchBlogs());

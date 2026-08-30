@@ -15,7 +15,12 @@ export const fetchBlogs = () => async (dispatch) => {
 
   try {
     const res = await api.get("/blogs");
-    dispatch(setBlogs(res.data));
+
+    const blogs = Array.isArray(res.data)
+      ? res.data
+      : res.data.blogs || [];
+
+    dispatch(setBlogs(blogs));
   } catch (err) {
     dispatch(setError(err.message));
   } finally {
