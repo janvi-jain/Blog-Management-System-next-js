@@ -1,16 +1,11 @@
 {
-  "name": "Backend",
+  "name": "blog-management-backend",
   "version": "1.0.0",
   "description": "Blog Management Backend",
-  "main": "index.js",
-   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "scripts": {
+    "start": "json-server db.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
-    "next": "...",
-    "react": "...",
-    "react-dom": "..."
+    "json-server": "^0.17.4"
   }
 }
